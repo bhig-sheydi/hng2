@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   const response = {
     email: "bhigsheydi@gmail.com", 
     current_datetime: new Date().toISOString(), 
-    github_url: "https://github.com/bhig-sheydi/hng.git" 
+    github_url: "https://github.com/bhig-sheydi/hng2.git" 
   };
 
   res.json(response);
